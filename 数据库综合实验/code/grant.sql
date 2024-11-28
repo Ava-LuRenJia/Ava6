@@ -1,0 +1,4 @@
+CREATE USER 'test'@'localhost' IDENTIFIED BY '123456';
+GRANT CREATE USER,
+ CREATE ROLE ON *.* TO 'test'@'localhost' WITH GRANT OPTION;
+ 

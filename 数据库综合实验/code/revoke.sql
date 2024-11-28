@@ -1,0 +1,1 @@
+ REVOKE CREATE USER, CREATE ROLE ON *.* FROM 'test'@'localhost';
